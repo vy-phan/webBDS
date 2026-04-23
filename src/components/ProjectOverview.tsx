@@ -112,12 +112,12 @@ export default function ProjectOverview() {
             alt="Tổng quan"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white/40"></div>
+          <div className="absolute inset-0 bg-white/40"></div>
         </div>
 
         {/* Hộp nội dung dính liền với Video (Sharp & Connected) */}
         <div className="relative z-10 w-full container mx-auto px-4 py-10 lg:py-20">
-          <div className="bg-white max-w-5xl shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] border-l-[12px] border-[#0a4d34] animate-fade-in-up overflow-hidden">
+          <div className="bg-white max-w-5xl animate-fade-in-up overflow-hidden rounded-4xl">
             {/* Phần văn bản */}
             <div className="p-8 md:p-16 lg:p-20 space-y-6">
               <div className="flex items-center space-x-4">
@@ -155,14 +155,16 @@ export default function ProjectOverview() {
       </div>
 
       {/* --- Phần Báo Giá & Đăng Ký (Horizontal on Desktop) --- */}
-      <section id="bao-gia" className="relative min-h-screen py-20 lg:py-40 flex flex-col items-center justify-center overflow-hidden">
+      <section id="bao-gia" className="relative min-h-screen py-20 lg:py-40 flex flex-col items-center justify-center overflow-hidden border-t-[10px] border-[#0a4d34]">
         {/* Background */}
         <div className="absolute inset-0 z-0">
           <img
             src="/clarkequay.webp"
             alt="Clarke Quay"
-            className="w-full h-full object-cover scale-105"
+            className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-white/40"></div>
+
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
